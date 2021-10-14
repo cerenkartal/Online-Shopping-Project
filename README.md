@@ -8,7 +8,8 @@ The purpose of the project is to create an example of a web-based shopping site.
 | Javascript      | :arrow_left: | 
 | JQuery      | :arrow_left:       |  
 | Css | :arrow_left:        |    
-| Bootstrap | :arrow_left:        |    
+| Bootstrap | :arrow_left:        |  
+| HTML | :arrow_left:        |  
 
 ## Application Images
 
