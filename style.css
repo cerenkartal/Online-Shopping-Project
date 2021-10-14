@@ -1,0 +1,567 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  --bs-gutter-x: none !important;
+}
+
+.container{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 15px;
+
+}
+.nav-link{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+.navButtonParent{
+  
+}
+
+
+
+.navButtonParent:hover{
+    
+    background-color: rgb(112, 59, 59) !important;
+    
+}
+
+
+
+.header>.container-fluid>h1{
+  color:  #ffffff;
+  font: normal 50px 'Cookie', cursive;
+  padding-left: 1rem;
+  margin:0;
+}
+.header>.container-fluid>h1>span{
+  
+  color: rgb(112, 59, 59);
+}
+
+.shoppingIcon{
+  padding-left: 5rem;
+  font-size: 2.3rem;
+  opacity: 0.9;
+  color: white !important;
+  
+}
+.shoppingIcon:hover{
+  font-size: 2.5rem;
+  opacity: 1;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.dropdown-item-lastchild:hover {
+    background-color: rgb(245, 235, 237) !important;
+    color: black !important;
+}
+
+.side-navbar {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    margin-left: -1000px;
+    margin-top: -1rem;
+    background-color: rgb(41, 38, 38)!important;
+    transition: 0.5s;
+    
+  }
+
+  #navbarSupportedContent{
+    z-index: 999999999999;
+  }
+
+
+  .side-nav-list>.h3{
+  margin-bottom: 1rem !important;
+  
+    
+  }
+
+  .sidenavList{
+    
+    margin-right: 2rem;
+    margin-top: 0.79rem;
+    
+    
+  }
+  .sidenavList>.mx-2{
+    margin-left: 0px auto !important;
+    
+    
+  }
+ .mx-2>.allProductsHref{
+    font-size: 19px;
+    color: white !important;
+    
+    
+  }
+
+  .catCollapse{
+    color: white;
+    width: 120px;
+    
+    
+    
+  }
+  .catCollapse>a{
+    text-decoration: none;
+    
+    color: white !important;
+    width: auto;
+    
+  }
+
+
+
+  
+  .my-container {
+    transition: 0.4s;
+    height: 4.5rem;
+    
+    
+  }
+  
+  .active-nav {
+    margin-left: 0;
+  }
+  
+  /* for main section */
+  .active-cont {
+    margin-left: 180px;
+  }
+  
+  #menu-btn {
+    background-color: rgb(41, 38, 38);
+    color: #fff;
+    
+
+  }
+
+  .header{
+    width: 100%;
+    box-sizing: content-box;
+    background-color: rgb(41, 38, 38) !important;
+    height: 7rem;
+  }
+
+  .header >p ,h1, i{
+      color: white !important;
+  }
+
+  .navbar-bottom{
+      
+      margin-top: -3.5px;
+      width: 100%;
+      
+  }
+
+
+
+.searchPart{
+    width: 40rem;
+}
+.searchPart>button:hover{
+    background-color: black !important;
+    color: white;
+
+}
+
+
+.main-navbar{
+    background-color:rgb(112, 59, 59) !important;
+    display: sticky;
+    
+}
+
+.userLinkChange{
+
+border: 2px solid white;
+color: black !important;
+background-color: white;
+border-radius: 10px;
+}
+
+/* ürünkartlar */
+
+ .urunKartlar{
+   /* display: flex;
+   justify-content: space-evenly; */
+/*    
+   width: 69rem;
+   margin-top: 3rem;
+   margin-left: 0.7rem; */
+   
+   
+   
+ }
+ /* .urunKartHaber{
+  width: 17rem !important;
+  padding-right: 1.2rem;
+  height: auto;
+  display: inline-block;
+  justify-content: space-between;
+  border: 0.5px solid rgb(221, 219, 219);
+  object-fit: cover;
+  overflow: hidden;
+  margin-bottom: 1rem;
+   
+ }
+
+
+
+ .urunKartIndex{
+  width: 10rem !important;
+  padding-right: 1.2rem;
+  height: auto;
+  display: inline-block;
+  justify-content: space-between;
+  border: 0.5px solid rgb(221, 219, 219);
+  object-fit: cover;
+  overflow: hidden;
+  margin-bottom: 1rem;
+ } */
+
+ #rowHaberKartlar{
+  --bs-gutter-x: none !important;
+ }
+
+ .urunKartIndex>img{
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100px !important;
+ }
+
+ .urunKartIndex>.card-body>.btn{
+  width: 100px !important;
+  margin-bottom: 0px;
+  font-size: 14px;
+  
+ }
+
+ .indexUrunBaslik{
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: rgb(112, 59, 59);
+   color: white;
+ }
+
+ .productsBaslik{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: -25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid brown;
+  background-color: whitesmoke;
+  color: black;
+ }
+
+ .urunKart:hover{
+  background-color: rgb(240, 238, 238);
+ }
+
+ .urunKartHaber >img{
+   object-fit: cover;
+   overflow: hidden;
+   width: 100%;
+   height: 200px;
+   
+ }
+
+ .urunKartHaber>.card-body >.btn{
+  width: 200px !important;
+  margin-bottom: 3px;
+ }
+
+
+ /* Slider*/
+.carousel-inner{
+
+}
+
+.carousel-item{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+
+  
+}
+
+ .carousel-item>img{
+   height: 36.8rem !important;
+   object-fit: cover;
+   overflow: hidden;
+   
+ }
+
+ .carousel-caption{
+  height: 10rem;
+  background-color: black;
+  opacity: 0.5;
+  width:100%;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  box-shadow: -1px 0px 10px 1px black;
+  position: absolute;
+  color: white;
+  margin-bottom: -1.2rem;
+  margin-left: -10.4rem;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+  font-size: 20px;
+ }
+
+
+ /* reklam */
+ .reklamModal {
+  width: 20rem;
+  height: 20rem;
+
+}
+
+
+/* footer */
+footer{
+  
+  bottom: 0;
+ }
+ .footer-distributed{
+  background-color: rgb(41, 38, 38);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  
+  padding: 55px 50px;
+  
+ }
+  
+ .footer-distributed .footer-left,
+ .footer-distributed .footer-center,
+ .footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+ }
+  
+ .footer-distributed .footer-left{
+  width: 40%;
+ }
+  
+ .footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+ }
+  
+ .footer-distributed h3 span{
+  color:  rgb(112, 59, 59);
+ }
+  
+  
+ .footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+ }
+  
+ .footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+ }
+  
+ .footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+ }
+  
+  
+ .footer-distributed .footer-center{
+  width: 35%;
+ }
+  
+ .footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+ }
+  
+ .footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+ }
+  
+ .footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+ }
+  
+ .footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+ }
+  
+ .footer-distributed .footer-center p a{
+  color:  rgb(112, 59, 59);
+  text-decoration: none;;
+ }
+  
+ .footer-distributed .footer-right{
+  width: 20%;
+ }
+  
+ .footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+ }
+  
+ .footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+ }
+  
+ .footer-distributed .footer-icons{
+  margin-top: 25px;
+ }
+  
+ .footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+  
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  
+  margin-right: 3px;
+  margin-bottom: 5px;
+ }
+  
+  
+ @media (max-width: 880px) {
+  
+  .footer-distributed{
+  font: bold 14px sans-serif;
+  
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+  }
+  
+  .footer-distributed .footer-center i{
+  margin-left: 0;
+  }
+  .main {
+  line-height: normal;
+  font-size: auto;
+  }
+  
+ }
+
+ .copyRight{
+  height: 60px;
+  background-color: rgb(112, 59, 59);
+  color: white;
+ }
+
+
+ .upButton >a>button{
+   background-color: rgb(41, 38, 38) !important;
+   border: 1px solid white;
+  
+ }
+
+/* denemeproductInfo */
+ 
+
+ .add-to-cart .btn-qty {
+  width: 52px;
+  height: 46px;
+}
+
+.add-to-cart .btn { border-radius: 0; }
+
+
+body{
+  margin-top:20px;
+}
+
+.push-bit {
+  margin-bottom: 30px;
+}
+
+
+
+/* productInfoPage */
+
+.urunDetail{
+  width: 100%;
+}
+
+.urunDetail>.row>.push-bit> img{
+  padding: 50px;
+  object-fit: cover;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*login sayfası*/
+
